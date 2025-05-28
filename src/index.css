@@ -100,7 +100,7 @@ img {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 2.5rem; /* Increased padding from 1.5rem to 2.5rem */
 }
 
 @media (max-width: 768px) {
@@ -118,5 +118,9 @@ img {
   
   h4 {
     font-size: 1.25rem;
+  }
+  
+  .container {
+    padding: 0 1.5rem; /* Responsive padding for mobile */
   }
 }

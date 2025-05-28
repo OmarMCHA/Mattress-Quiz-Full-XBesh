@@ -12,7 +12,7 @@ const LayoutContainer = styled.div`
 
 const Main = styled.main`
   flex: 1;
-  padding: 2rem 0;
+  padding: 3rem 0; /* Increased padding from 2rem to 3rem */
 `
 
 function Layout() {

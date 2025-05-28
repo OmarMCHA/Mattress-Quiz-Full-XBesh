@@ -5,8 +5,8 @@ import styled from 'styled-components'
 const Hero = styled.section`
   display: flex;
   align-items: center;
-  gap: 2rem;
-  margin-bottom: 4rem;
+  gap: 3rem; /* Increased from 2rem to 3rem */
+  margin-bottom: 5rem; /* Increased from 4rem to 5rem */
   
   @media (max-width: 992px) {
     flex-direction: column;
@@ -66,7 +66,7 @@ const StartButton = styled(Link)`
 `
 
 const Features = styled.section`
-  margin-bottom: 4rem;
+  margin-bottom: 5rem; /* Increased from 4rem to 5rem */
 `
 
 const SectionTitle = styled.h2`
@@ -77,13 +77,13 @@ const SectionTitle = styled.h2`
 const FeatureGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem; /* Increased from 2rem to 2.5rem */
 `
 
 const FeatureCard = styled.div`
   background-color: white;
   border-radius: var(--radius-lg);
-  padding: 2rem;
+  padding: 2.5rem; /* Increased from 2rem to 2.5rem */
   box-shadow: var(--shadow-md);
   transition: transform var(--transition);
   
@@ -113,18 +113,18 @@ const FeatureDescription = styled.p`
 `
 
 const Process = styled.section`
-  margin-bottom: 4rem;
+  margin-bottom: 5rem; /* Increased from 4rem to 5rem */
 `
 
 const ProcessSteps = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem; /* Increased from 2rem to 3rem */
 `
 
 const ProcessStep = styled.div`
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem; /* Increased from 2rem to 2.5rem */
   align-items: center;
   
   @media (max-width: 768px) {
@@ -160,19 +160,19 @@ const StepDescription = styled.p`
 `
 
 const Testimonials = styled.section`
-  margin-bottom: 4rem;
+  margin-bottom: 5rem; /* Increased from 4rem to 5rem */
 `
 
 const TestimonialGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 2.5rem; /* Increased from 2rem to 2.5rem */
 `
 
 const TestimonialCard = styled.div`
   background-color: white;
   border-radius: var(--radius-lg);
-  padding: 2rem;
+  padding: 2.5rem; /* Increased from 2rem to 2.5rem */
   box-shadow: var(--shadow-md);
 `
 
@@ -215,11 +215,11 @@ const AuthorTitle = styled.p`
 const CTA = styled.section`
   background-color: var(--primary-light);
   border-radius: var(--radius-lg);
-  padding: 3rem;
+  padding: 4rem; /* Increased from 3rem to 4rem */
   text-align: center;
   
   @media (max-width: 768px) {
-    padding: 2rem;
+    padding: 3rem; /* Increased from 2rem to 3rem */
   }
 `
 
